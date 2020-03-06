@@ -4,11 +4,10 @@
 @import url("https://korbsstudio.com/DreamFrame/raw/raw.css");
 :root {
     /* Background */
-    --custombackground: url(https://cdn.discordapp.com/attachments/430388043594334210/567774100433534986/oc__winter_feelings___my_new_wallpaper___4k_by_total_chuck-dbv5j3k.jpg); /* Change the background */
     --blur: 0px !important; /* Adjust the amount of blur on the background */
-    --opacitybg: 0.3 !important; /* Change the transparency of the background. This is what controls the black overlay that is over the background */
+    --opacitybg: .9 !important; /* Change the transparency of the background. This is what controls the black overlay that is over the background */
     --opacityDiscord: 0.7 !important; /* Try removing your custom background and enable Transparency in BandagedBD settings. Also adjust opacitybg to 0 */
-    --bgscale: 1; /* 0.3 to 3 */
+    --bgscale: 2.5; /* 0.3 to 3 */
     --bgrotation: 0deg; /* This option works out for some backgrounds, just in case. */
     --bgrepeat: no-repeat; /* To make the background not repeat, use "no-repeat". To make background repeat, use "repeat", changing bgscale might need to be adjusted */
 
