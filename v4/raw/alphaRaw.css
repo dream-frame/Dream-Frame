@@ -9,102 +9,55 @@
 
 
 /** Tags **/
-.avatar-1BDn8e[src*="597905003717459968"] + h2 > span.username-1A8OIy::after { /* Creatable asked to add this */
-    color: white !important;
-    background: #7289da;
-    content: 'Guy who is better than you';
-    font-size: .625em;
-    font-weight: 500;
-    height: 1.28em;
-    padding: .072rem .275rem;
-    border-radius: 3px;
-    text-transform: uppercase;
-    line-height: 1.3;
-    margin-left: .25rem;
-    text-decoration: none !important;
-    display: inline-block;
+
+/* Default tag variables */
+:root {
+    --tag-bg: #7289da;
+    --tag-text-color: white;
+    --tag-font: inherit;
 }
 
-.avatar-1BDn8e[src*="273169968202252289"] + h2 > span.username-1A8OIy::after {
-    color: white !important;
-    background: #7289da;
-    content: 'Dream Frame Developer';
-    font-size: .625em;
+.avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
+    color: var(--tag-text-color) !important;
+    background: var(--tag-bg);
+    content: var(--tag-text);
+    font-family: var(--tag-font);
+    font-size: .8em;
     font-weight: 500;
-    height: 1.28em;
+    height: 2.28em;
     padding: .072rem .275rem;
     border-radius: 3px;
     text-transform: uppercase;
-    line-height: 1.3;
-    margin-left: .25rem;
-    text-decoration: none !important;
-    display: inline-block;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
 }
+
+.avatar-1BDn8e[src*="597905003717459968"] + h2 > span.timestamp-3ZCmNB::before { /* creatable#0123 */
+    --tag-text: 'look at my discrim peasant';
+    --tag-bg: transparent url(https://media2.giphy.com/media/1dJWnCZBCE7gcFwLvk/source.gif) center;
+}
+
+.avatar-1BDn8e[src*="273169968202252289"] + h2 > span.timestamp-3ZCmNB::before { /* Korbs */
+    --tag-text: 'Dream Frame Developer';
+}
+
 /* Donators */
-.avatar-1BDn8e[src*="126053182748098567"] + h2 > span.username-1A8OIy::after { /* ! Siage */
-    color: white !important;
-    background: #7289da;
-    content: 'Donator';
-    font-size: .625em;
-    font-weight: 500;
-    height: 1.28em;
-    padding: .072rem .275rem;
-    border-radius: 3px;
-    text-transform: uppercase;
-    line-height: 1.3;
-    margin-left: .25rem;
-    text-decoration: none !important;
-    display: inline-block;
+.avatar-1BDn8e[src*="126053182748098567"] + h2 > span.timestamp-3ZCmNB::before { /* ! Siage */
+    --tag-text: 'Donator';
 }
 
-.avatar-1BDn8e[src*="224193802187833344"] + h2 > span.username-1A8OIy::after { /* Winter */
-    color: white !important;
-    background: #7289da;
-    content: 'Donator';
-    font-size: .625em;
-    font-weight: 500;
-    height: 1.28em;
-    padding: .072rem .275rem;
-    border-radius: 3px;
-    text-transform: uppercase;
-    line-height: 1.3;
-    margin-left: .25rem;
-    text-decoration: none !important;
-    display: inline-block;
+.avatar-1BDn8e[src*="224193802187833344"] + h2 > span.timestamp-3ZCmNB::before { /* Winter */
+    --tag-text: 'Donator';
 }
 
-.avatar-1BDn8e[src*="383345807228928010"] + h2 > span.username-1A8OIy::after { /* Bryce */
-    color: white !important;
-    background: #7289da;
-    content: 'Donator';
-    font-size: .625em;
-    font-weight: 500;
-    height: 1.28em;
-    padding: .072rem .275rem;
-    border-radius: 3px;
-    text-transform: uppercase;
-    line-height: 1.3;
-    margin-left: .25rem;
-    text-decoration: none !important;
-    display: inline-block;
+.avatar-1BDn8e[src*="383345807228928010"] + h2 > span.timestamp-3ZCmNB::before { /* Bryce */
+    --tag-text: 'Donator';
 }
 
-.avatar-1BDn8e[src*="102541888376020992"] + h2 > span.username-1A8OIy::after { /* Plox */
-    color: white !important;
-    background: #7289da;
-    content: 'Donator';
-    font-size: .625em;
-    font-weight: 500;
-    height: 1.28em;
-    padding: .072rem .275rem;
-    border-radius: 3px;
-    text-transform: uppercase;
-    line-height: 1.3;
-    margin-left: .25rem;
-    text-decoration: none !important;
-    display: inline-block;
+.avatar-1BDn8e[src*="102541888376020992"] + h2 > span.timestamp-3ZCmNB::before { /* Plox */
+    --tag-text: 'Donator';
 }
-
 /*** Discord and Background ***/
 /** App **/
  * {
