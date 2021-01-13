@@ -1,3 +1,8 @@
+# v4.11
+ - Fix covers
+ - Hide stickers button
+ - Adjust server name position
+ - Fix server covers
 # v4.1
  - The new thread feature has been themed
  - The new reply feature has been themed
