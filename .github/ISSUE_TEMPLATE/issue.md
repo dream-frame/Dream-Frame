@@ -1,7 +1,7 @@
 ---
 name: Issue
 about: 'Bug Report '
-title: ''
+title: 'Bug Report'
 labels: bug
 assignees: KorbsStudio
 
@@ -17,9 +17,12 @@ Use imgur
 
 ## Mod
 [ ] Powercord
+
 [ ] BetterDiscord
 
 ## Discord Channel
 [ ] Stable
+
 [ ] PTB
+
 [ ] Canary
