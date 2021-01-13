@@ -1,6 +1,4 @@
-# Dream Frame
-<img src="https://i.imgur.com/g9Us8jt.png" data-canonical-src="https://i.imgur.com/g9Us8jt.png" width="200"/>
-
+# Dream 
 ![image](https://i.imgur.com/1n7dR7t.jpg)
 Dream Frame offers customization like custom background, colors, fonts, and blur adjustments. One of the best translucent themes out there for Powercord and BetterDiscord.
 
