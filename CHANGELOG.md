@@ -1,3 +1,52 @@
+# v5 WIP
+ - New editor available
+ - Website updated
+ - All variables renamed
+   - `custombackground` > `bg-url`
+   - `blur` > `bg-blur`
+   - `bgopacity` > `bg-brightness`
+   - `bgscale` > `bg-scale`
+   - `bgrepeat` > `bg-repeat`
+   
+   - `showCovers` > `pf-cover`
+   
+   - `bg-blur` > `*-*-blur`
+   - `bg-element` > `*-*-bg`
+   
+   - `accentcolor` > `cl-accent-primary`
+   - `text-link` > `cl-accent-link`
+   
+   - `online` > `cl-stauts-online`
+   - `idle` > `cl-stauts-idle`
+   - `dnd` > `cl-stauts-dnd`
+   - `offline` > `cl-stauts-offline`
+   - `invisible` > `cl-stauts-invisible`
+   - `streaming` > `cl-stauts-streaming`
+   
+   - `ScrollbarColor` > `cl-scrollbar`
+ - New variables added
+   - `pf-notes`
+   - `rd-server-banner`
+   - `rd-server-icons`
+   - `rd-avatar`
+   - `rd-btns`
+   - `rd-app`
+   - `rd-boxes`
+   - `rd-channels`
+   - `rd-img`
+   
+   - `hb-url`
+   - `hb-scale`
+   
+   - `chat-sticker`
+   - `chat-gif`
+   - `chat-gift`
+   - `chat-emoji`
+   
+   - `ch-selected`
+   - `ch-unread`
+ - Variables removed
+   - `br`
 # v4.11
  - Fix covers
  - Hide stickers button
