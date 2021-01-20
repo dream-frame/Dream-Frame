@@ -1,3 +1,94 @@
+/* Dream Frame v5 */
+:root {
+    /** Background */
+    /* Background */
+    --bg-url: url(https://cdn.wallpaperhub.app/cloudcache/6/2/5/7/0/9/62570955bdb94feb3e6f743d526896aba879afbe.jpg); /* Choose a image URL for your Background */
+    /* Adjustments */
+    --bg-blur: 20px; /* Choose how blurry your Background will be */
+    --bg-brightness: 0.1; /* Choose how dark your Background will */
+    --bg-scale: cover; /* Adjust size of your Background */
+    --bg-repeat: no-repeat; /* Choose if you want your background to have a pattern */
+    --bg-rotation: 0deg;
+    /* Containers */
+    --bg-cb-server-list: rgba(41, 43, 47, 0);
+    --bg-cb-channels-list: rgba(41, 43, 47, 0);
+    --bg-cb-friends-list: rgba(41, 43, 47, 0);
+    --bg-cb-members-list: rgba(41, 43, 47, 0);
+    --bg-cb-chat: rgba(41, 43, 47, 0);
+    --bg-cb-chat-header: rgba(41, 43, 47, 0);
+    --bg-cb-settings-left-sidebar: rgba(41, 43, 47, 0);
+    --bg-cb-settings-page: rgba(41, 43, 47, 0);
+
+    /** Profiles **/
+    /* Covers(usrbg) */
+    --pf-cover: inherit; /* Hide or show covers */
+    /* Notes */
+    --pf-notes: inherit; /* Hide or show notes */
+    
+    /** Colors **/
+    /* Accent */
+    --cl-accent-primary: rgb(114, 137, 214); /* Set accent color */
+    --cl-accent-secondary: rgb(255, 255, 255); /* Set accent color(seconds will be used if gradient is in use) */
+    --cl-accent-link: rgb(27, 174, 240); /* Set link color */
+    /* Status */
+    --cl-status-online: rgb(70, 181, 132);
+    --cl-status-idle: rgb(249, 166, 54);
+    --cl-status-dnd: rgb(239, 73, 75);
+    --cl-status-offline: rgb(116, 127, 140);
+    --cl-status-streaming: rgb(88, 55, 146);
+    /* Scrollbar */
+    --cl-scrollbar: rgb(255, 255, 255);
+
+    /** Server List **/
+    /*  Home Button Icon */
+    --hb-url: url();
+    /*  Home Button Adjustments */
+    --hb-scale: 1;
+    /* Server Icons */
+    --rd-server-icons: 50px;
+    /* Show or Hide */
+    --sl-discovery: inherit;
+    --sl-addJoin: inherit;
+
+    /** Roundness **/
+    --rd-server-banner: 4px;
+    --rd-avatar: 50px;
+    --rd-btns: 7px;
+    --rd-app: 0px;
+    --rd-boxes: 7px;
+    --rd-channels: 7px;
+    --rd-img: 4px;
+    --rd-notice: 7px;
+    --rd-context-menu: 4px;
+
+    /** Chat **/
+    /* Text Box */
+    --chat-sticker: none;
+    --chat-gif: none;
+    --chat-gift: none;
+    --chat-emoji: inherit;
+    /* Embeds */
+    --chat-emb-bg: rgba(24, 25, 28, 0.75);
+    --chat-emb-blur: 10px;
+    /* Codeblocks */
+    --chat-code-bg: rgba(24, 25, 28, 0.75);
+    --chat-code-blur: 10px;
+    /* Emoji Menu */
+    --chat-em-bg: rgba(24, 25, 28, 0.75);
+    --chat-em-blur: 10px;
+
+    /** Channels **/
+    --ch-selected: linear-gradient(45deg, rgba(114, 137, 214, 1), rgba(114, 137, 214, 0.05));
+    --ch-unread: rgba(64, 73, 100, 0.75);
+    
+    /** Pop Ups **/
+    /* Notifications */
+    --app-notice-area: 50px;
+    --app-notice-blur: 20px;
+    --app-cm-blur: 10px;
+    --app-cm-background: rgba(24, 25, 28, 0.75);
+}
+
 /*** App ***/
 /** Variables **/
 ::-webkit-scrollbar-track {background-color: transparent !important;}
@@ -213,6 +304,32 @@ div#pc-unsupported-build {
     background: radial-gradient(rgba(241, 102, 47, 0.75), rgba(241, 102, 47, 0.25));
 }
 /*** Chat ***/
+/** Beginning of a channel **/
+.colorHeaderSecondary-3Sp3Ft.size14-e6ZScH.subtitle-2UIIw0.noChildren-1pQQQE {
+    display: none;
+}
+.container-3RCQyg {border: none;}
+.colorHeaderPrimary-26Jzh-.size32-o_H79z.titleName-3-Lp3Z {
+    text-align: left;
+    font-weight: 400;
+    position: absolute;
+    left: 18px;
+    top: 0px;
+    display: flex;
+    margin-left: 0px;
+}
+.colorHeaderPrimary-26Jzh-.size32-o_H79z.titleName-3-Lp3Z p {
+    margin-right: 7px;
+}
+/** Date **/
+.divider-JfaTT5 {border:none;}
+.content-1o0f9g {
+    position: absolute;
+    left: 55px;
+    color: var(--cl-accent-secondary);
+    padding: 5px 10px;
+    background: var(--cl-accent-primary);
+}
 /** Embeds **/
 .embedFull-2tM8-- {
     background: var(--chat-em-bg);
@@ -246,12 +363,12 @@ button.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="
 }
 /** Header **/
 /* Etc */
-.content-yTz4x3:before {display: none;}
+.content-yTz4x3:before, .children-19S4PO:after {display: none;}
 section.title-3qD0b-.container-1r6BKw.themed-ANHk51 {height: 70px;}
 /*** Channels ***/
 /** Channels **/
 /* Color Names */
-.name-23GUGE, .icon-1DeIlz, .container-2ax-kl, .modeSelected-346R90 .icon-1DeIlz, .modeSelected-346R90:hover .icon-1DeIlz, .modeUnread-1qO3K1 .icon-1DeIlz, .modeUnread-1qO3K1:hover .icon-1DeIlz {
+.name-23GUGE, .icon-22AiRD, .icon-1DeIlz, .container-2ax-kl, .modeSelected-346R90 .icon-1DeIlz, .modeSelected-346R90:hover .icon-1DeIlz, .modeUnread-1qO3K1 .icon-1DeIlz, .modeUnread-1qO3K1:hover .icon-1DeIlz {
     color: white;
 }
 /* Unread */
