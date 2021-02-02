@@ -1,6 +1,8 @@
 # v5 WIP
  - New editor available
  - Website updated
+ - Decrease width of "Play on Spotify" when viewing profiles
+ - Push search box in Emoji menu into the menu
  - All variables renamed
    - `custombackground` > `bg-url`
    - `blur` > `bg-blur`
